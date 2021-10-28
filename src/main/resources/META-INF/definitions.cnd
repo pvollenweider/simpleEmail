@@ -1,0 +1,6 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+
+[jnt:simpleMailForm] > jnt:content, jmix:basicContent
+ - from (string) = "from@domain.com" mandatory
+ - to (string)  = "to@domain.com"  mandatory

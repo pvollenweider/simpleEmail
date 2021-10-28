@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+
+    <description>Simple mail Taglib</description>
+    <display-name>flg</display-name>
+    <tlib-version>1.0-SNAPSHOT</tlib-version>
+    <short-name>sm</short-name>
+    <uri>http://jahia.com/sm/taglibs</uri>
+    <function>
+        <description></description>
+        <name>removeSessionAttribute</name>
+        <function-class>org.jahia.modules.taglibs.ELFunctions</function-class>
+        <function-signature>java.lang.String removeSessionAttribute(javax.servlet.http.HttpServletRequest, java.lang.String)</function-signature>
+    </function>
+
+</taglib>

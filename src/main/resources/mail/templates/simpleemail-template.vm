@@ -1,0 +1,16 @@
+#* @vtlvariable name="emailAddress" type="java.lang.String" *#
+#* @vtlvariable name="message" type="java.lang.String" *#
+
+<html>
+<body>
+<p>Hello,</p>
+
+<p>
+    A message has been send by $emailAddress
+</p>
+
+<p>
+    $message
+</p>
+</body>
+</html>
